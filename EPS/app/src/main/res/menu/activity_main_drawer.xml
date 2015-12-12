@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_pontuacao"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Pontuação" />
+        <item
+            android:id="@+id/nav_coleta"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Pontos de Coleta" />
+        <item
+            android:id="@+id/nav_store"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Store" />
+        <item
+            android:id="@+id/nav_historico"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Histórico" />
+        <item
+            android:id="@+id/nav_jogo"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Jogar" />
+    </group>
+
+    <item android:title="">
+        <menu>
+            <item
+                android:id="@+id/nav_informacoes"
+                android:icon="@drawable/ic_menu_slideshow"
+                android:title="Mais informações" />
+            <!--<item
+                android:id="@+id/nav_settings"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Settings" />-->
+        </menu>
+    </item>
+
+</menu>
